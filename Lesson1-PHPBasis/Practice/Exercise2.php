@@ -11,3 +11,11 @@
  *
  *  Commit your result in your fork
  */
+
+$friend = ["Nombre"=>"Facu", "Edad"=> ": 23"];
+$friend1 = ["Nombre"=>"Mariano", "Edad"=> ": 32"];
+$friend2 = ["Nombre"=>"Matu", "Edad"=> ": 35"];
+$friend3 = ["Nombre"=>"Giselle", "Edad"=> ": 29"];
+var_dump($friend, $friend1, $friend2, $friend3);
+
+?>

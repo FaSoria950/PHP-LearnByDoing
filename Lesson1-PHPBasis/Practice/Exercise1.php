@@ -12,4 +12,9 @@
  *  Commit your results in your fork.
  */
 
-$name ='';
+$name = 'Facu';
+echo 'Hello world! my name is' .$name."\n";
+
+echo "Hello world! my name is {$name}";
+
+?>
