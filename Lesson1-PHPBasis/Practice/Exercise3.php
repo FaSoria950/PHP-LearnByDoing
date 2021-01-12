@@ -56,17 +56,17 @@ $products = [
 
 foreach($products as $product=>$category) {
   switch($category) {
+    case "Hats":
+        echo "$product of category: $category, will have a discount of: 5 percent.";
+        break;
       case "Shoes":
           echo "$product of category: $category, will have a discount of: 10 percent.";
           break;
       case "Shirts":
-          echo "$product of category: $category, will have a discount of: 15 percent.\n\n";
-          break;
-      case "Hats":
-          echo "$product of category: $category, will have a discount of: 5 percent.\n\n";
-          break;
+          echo "$product of category: $category, will have a discount of: 15 percent.";
+        break;
       default:
-          echo "$product of category: $category, will have no discount.\n\n";
+          echo "$product of category: $category, will have no discount.";
   }
 }
 ?>
