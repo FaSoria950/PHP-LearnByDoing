@@ -54,36 +54,19 @@ $products = [
     "Skate shoes" => "Shoes", "Trecking shoes"
 ];
 
-switch ($products) {
-    case 1:
-      if ($products == 'Scarfs'){
-        echo "Red scarf of category: Scarf. will have no discount.";
-        echo "Blue scarf of category: Scarf. will have no discount.";
-        echo "Blue scarf of category: Scarf. will have no discount.";
-      }
-    break;
-    case 2:
-        if ($products == 'Shoes'){
-          echo "Tennis shoes of category: Shoes, will have a discount of : 10 percent.";
-          echo "Skate shoes of category: Shoes, will have a discount of : 10 percent.";
-        }
-      break;
-      case 3:
-        if ($products == 'Shirts'){
-            echo "Red shirt of category: Shirts, will have a discount of : 15 percent.";
-            echo "Brown shirt of category: Shirts, will have a discount of : 15 percent.";
-            echo "White shirt of category: Shirts, will have a discount of : 15 percent.";
-            echo "Blue shirt of category: Shirts, will have a discount of : 15 percent.";
-            echo "Pinl shirt of category: Shirts, will have a discount of : 15 percent.";
-          }
-      break;
-      case 2:
-        if ($products == 'Hats'){
-          echo "Tennis hat of category: Hats, will have a discount of : 5 percent.";
-          echo "Baseball hat of category: Hats, will have a discount of : 5 percent.";
-        }
-    break;
-        default: 
-            echo "Apple Watch of category: Watches. will have no discount.";
+foreach($products as $product=>$category) {
+  switch($category) {
+      case "Shoes":
+          echo "$product of category: $category, will have a discount of: 10 percent.";
+          break;
+      case "Shirts":
+          echo "$product of category: $category, will have a discount of: 15 percent.\n\n";
+          break;
+      case "Hats":
+          echo "$product of category: $category, will have a discount of: 5 percent.\n\n";
+          break;
+      default:
+          echo "$product of category: $category, will have no discount.\n\n";
+  }
 }
-    ?>
+?>
