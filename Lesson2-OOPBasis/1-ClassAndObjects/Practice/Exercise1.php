@@ -13,10 +13,10 @@ echo $mariano->sayHello() . "\n \n";
 /*
  *  What is the output in the command line for this code ?
  *
- *  Your answer:
+ *  Your answer: hello
  *
  *  What is the output if you run this code twice? Commit a change if you think that you can improve it.
  *
- *  Your answer:
+ *  Your answer: hello hello is the output and is one over the other
  *
  */
