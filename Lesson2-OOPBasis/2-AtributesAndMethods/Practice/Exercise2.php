@@ -22,14 +22,14 @@ echo $mariano->lastName . "\n \n";
 
 // Add the code so the lines have a different output in the console.
 
-echo $mariano->firstName . "\n \n";
-echo $mariano->lastName . "\n \n";
+echo $mariano->firstName . "Facundo";
+echo $mariano->lastName . "Soria";
 
 
 /*
  * Do you think there's any way to prevent the fact that anyone can change the values of these attributes?
  * How?
  *
- * Your answer:
+ * Your answer: Should be private
  *
  */
