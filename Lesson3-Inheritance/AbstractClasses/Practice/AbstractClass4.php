@@ -22,3 +22,56 @@
  *   You need to come up with a model of the different classes involved and the UML Class Diagram
  *   (Commit it in the diagrams folder)
  */
+
+abstract class Product {
+
+    protected $cost;
+    protected $uniqueId;
+    protected $clientName;
+    protected $money;
+    
+    public function __construct
+    
+ return $this->clientName;
+}
+
+public function setClientName(string $client Name){
+
+    $this->clientName = $clientName;
+}
+
+public function setMoney(){
+    $this->money;
+}
+
+public abstract function calculate();
+
+class SafeBox extends Product{
+    public function calculate(){
+
+    }
+}
+
+class SavingAccount extends Product {
+    public function calculate(){
+
+    }
+}
+
+class IvestmentAccount extends Product{
+
+    public float $interest;
+
+    public function::_construct(float $money, float $cost, string $clientName){
+        parent::_construct($money, $cost, $clientName);
+        $this->clientName = $clientName;
+        $this->money = $money;
+        $this->cost = $cost;
+
+    }
+}
+
+public function calculate(){
+
+    }
+}
